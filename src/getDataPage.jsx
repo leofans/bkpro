@@ -31,15 +31,12 @@ class GetData extends React.Component{
 		.catch((error) => {			
 			console.error('request error:' + error);
 		});
-	};
+	},
 
-	render(){
-		var trr=[];
+	render: function(){
+
 		var nameList = [];
-		var idList=[];
-		var createTsL=[];
-		var rowList=[];
-		for(let i = 0; i < this.state.dataList.entries.length; i++) {
+		for(let i = 0; i < this.state.dataLength; i++) {
 			var name =  this.state.dataList.entries[i];
 			nameList.push(name);
 		}

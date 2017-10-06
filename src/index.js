@@ -29,7 +29,7 @@ var MyTitle=React.createClass({
 
 	getDefaultProps:function(){
 		return{
-			title:'Hello Begie'
+			title:'Hello Begie';
 		};
 	},
 

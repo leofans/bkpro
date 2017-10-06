@@ -1,0 +1,20 @@
+.form-group{
+	padding: 18px
+}
+
+.label_box{
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+}
+
+li{
+	text-indent: 1em;
+	padding: 3px;
+}
+
+li:hover{
+	display: block;
+	background: #e0e0e0;
+}
+
